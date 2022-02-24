@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+$ seq 17 | awk '{lg = log($1) / log(2)}; lg == int(lg)'
